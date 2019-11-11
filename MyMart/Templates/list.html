@@ -1,0 +1,40 @@
+<html>
+<h>
+<title>MyMart</title>
+</h>
+<style>
+ol {
+  list-style: none;
+  counter-reset: my-awesome-counter;
+}
+ol li {
+  counter-increment: my-awesome-counter;
+}
+ol li::before {
+  content: counter(my-awesome-counter) ". ";
+  color: blue;
+  font-weight: bold;
+}
+</style>
+<body>
+<h1 align="center">ITEMS LIST</h1>
+<ol>
+<div style="float:left; width: 50%;">
+<li>Bath tubs</li>
+<li>Battery Charger</li>
+<li>Battery Eliminater</li>
+<li>Beam Scales (upto 1.5 tons)</li>
+<li>Belt leather and straps</li>
+<li>Brass wire</li>
+</div>
+<div style="float: right; width: 50%;">
+<li>Bituminous paints</li>
+<li>Blotting paper</li>
+<li>Bolts and Nuts</li>
+<li>Bolts sliding</li>
+<li>Bone meal</li>
+<li>Boot polish</li>
+<div/>
+</ol>
+</body>
+</html>
