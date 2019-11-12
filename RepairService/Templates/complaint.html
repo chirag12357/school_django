@@ -1,0 +1,20 @@
+<html>
+<h>
+<title>Restart Repair Services</title>
+</h>
+<body>
+<h2>Customer Feedback and Complaint Form</h2>
+<form action="#" method="post">
+{% csrf_token %}
+Name: <input type="text" name="name"> <br><br>
+Email ID: <input type="text" name="email"> <br><br>
+Phone Number: <input type="text" name="phno"> <br><br>
+Appliance:<br>
+<input type="radio" name="appliance"> Refrigerator<br>
+<input type="radio" name="appliance"> Water Purifier<br>
+<input type="radio" name="appliance"> Television<br>
+<input type="radio" name="appliance"> Washing Machine<br>
+<input type="submit">
+</form>
+</body>
+</html>
